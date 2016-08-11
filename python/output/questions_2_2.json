@@ -1,0 +1,52 @@
+[
+  {
+    "correct": "0", 
+    "choices": [
+      "The patient more likely suffers from disease {{A}}.", 
+      "The patient more likely suffers from disease {{B}}.", 
+      "The chances that the patient suffers from A or B are the same."
+    ], 
+    "id": "prior", 
+    "name": "If a patient from the hosptial is picked at random, which of the following is true?"
+  }, 
+  {
+    "correct": "0", 
+    "choices": [
+      "80", 
+      "20", 
+      "55"
+    ], 
+    "id": "feature", 
+    "name": "Out of the 100 patients in the hospital, approximately how many received a <b>{{high}}</b> test result?"
+  }, 
+  {
+    "correct": "0", 
+    "choices": [
+      "9/10", 
+      "3/10", 
+      "3/5"
+    ], 
+    "id": "likelihood1", 
+    "name": "Approximately what is the proportion of patients with disease <b>{{A}}</b> that received a <b>{{high}}</b> test result?"
+  }, 
+  {
+    "correct": "0", 
+    "choices": [
+      "2/5", 
+      "5/8", 
+      "1/10"
+    ], 
+    "id": "likelihood2", 
+    "name": "Approximately what is the proportion of patients with disease <b>{{B}}</b> that received a <b>{{high}}</b> test result?"
+  }, 
+  {
+    "correct": "0", 
+    "choices": [
+      "The patient more likely suffers from disease {{A}}.", 
+      "The patient more likely suffers from disease {{B}}.", 
+      "The chances that the patient suffers from A or B are the same."
+    ], 
+    "id": "posterior", 
+    "name": "If one of the patients that received a <b>{{high}}</b> test result is picked at random, which of the following is true?"
+  }
+]

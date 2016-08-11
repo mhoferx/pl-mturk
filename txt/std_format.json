@@ -1,0 +1,5 @@
+[
+"The probability that a randomly chosen patient had <b>A</b> is <b>{{prior}}</b>, and the probability that she had <b>B</b> is <b>{{prior_c}}</b>.",
+"If a patient had <b>A</b>, then the probability that she received a <b>high</b> test result is <b>{{like1}}</b>, and the probability that she received a <b>low</b> test result is <b>{{like1_c}}</b>.",
+"If a patient had <b>B</b>, then the probability that she received a <b>high</b> test result is <b>{{like2}}</b>, and the probability that she received a <b>low</b> test result is <b>{{like2_c}}</b>'"
+]

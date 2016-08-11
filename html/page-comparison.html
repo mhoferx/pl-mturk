@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Reasoning Experiment</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		
+		<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+		<script type="text/javascript" src="../js/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript" src="../js/js.cookie.js"></script>
+		
+		<script type="text/javascript" src="../js/common_functions.js"></script>
+		
+		<script type="text/javascript" src="../js/comparison_script.js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+
+		<h2>{{{part2_title}}}</h2>
+		<hr />
+		<p>{{{description_comparison}}}</p>
+
+		<p>{{{description_headline}}}</p>
+
+		<div id="env1_container" class="image_icon_div">
+			<!--load image here-->
+		</div>
+		
+		<hr />
+		
+		<div id="img-select">
+				<label>
+				  <input type="radio" name="q_change" value="0" />
+				  <div class="stim_select">
+				  	  <div id="env2_container" class="image_icon_div">
+				  	  	<!--load image here-->
+				  	  </div>
+				  </div>			
+				</label>
+
+				<label>
+				  <input type="radio" name="q_change" value="1"/>
+				  <div class="stim_select">
+					  <div id="env3_container" class="image_icon_div">
+					  	<!--load image here-->
+					  </div>
+				  </div>
+				</label>
+		</div>
+		
+		<p>{{{part2_instructions}}}</p>
+		
+		<div id="comment_box">
+			<hr />
+			<div id="comment_box_textfield"></div>
+		</div>
+		
+		<input id="comparison_btn" class="customBTN center-btn" type="button" value="Click to Confirm Choice" />
+		</div>
+	</body>
+</html>

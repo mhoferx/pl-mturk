@@ -1,0 +1,23 @@
+{
+  "welcome" : "Welcome to the Experiment!",
+  
+  "description_study" : "<p>This study investigates probabilistic reasoning and intuitions about uncertainty. It consists of two parts and will take approximately 15 minutes.</p><p><b>Part 1:</b> You will answer 5 questions each about three different (hypothetical) hospitals. Patients in each hospital suffer from one of two different diseases (A or B). A blood test is available to diagnose the patients. Every patient is tested and test results are either high or low. Your task is to answer simple questions about the hospital.</p><p><b>Part 2:</b> You will be presented with a hypothetical scenario and asked to choose between two hospitals.</p>",
+  
+  "part1_title": "Part 1: Three Simple Reasoning Tasks",
+  
+  "description_format_icon": "<b>Description</b>: The display shows 100 simulated patients that are representative of the large number of patients that were previously treated at the hospital. Patients were diagnosed with one of two diseases (<b>A</b> or <b>B</b>). A blood test was administered to all patients and patients either tested <b>high</b> or <b>low</b>.",
+  
+  "description_format_std": "<b>Description</b>: Patients were diagnosed with one of two diseases (<b>A</b> or <b>B</b>). A blood test was administered to all patients and patients either tested <b>high</b> or <b>low</b>.",
+   
+   "question_headline": "You will now be asked simple statistical questions about the hospital and its patients. Read carefully and select the right answer.",
+   
+   "next": "Click 'Next' to begin.",
+   
+   "part2_title": "Part 2: Which Scenario is More Plausible?",
+   
+  "description_comparison": "In Part 1, you were shown three different hospitals. Hospital 1 is in the city of <b>Sommersdale</b>. Suppose that either Hospital 2 or Hospital 3 is also a real hospital, located near to Sommersdale. In other words, either Hospital 2 or Hospital 3 is also located in Sommersdale, while the data from the remaining hospital is made up. Take a moment to study its distribution of patients and test results. Your job is to think about whether Hospital 2 or Hospital 3 is more likely to be the real hospital, and to carefully explain why.",
+  
+  "description_headline" : "First, carefully consider the distribution of patients (disease A or B) and test results (high or low) from each hospital:",
+  
+  "part2_instructions" : "When you have decided whether Hospital 2 or Hospital 3 is the real hospital, select the real hospital by clicking on it. Very important: carefully explain why you believe that hospital is most likely to be the real hospital. Giving a careful and thoughtful explanation is the most important part of this study. Giving a careful explanation is required for you to be paid for the study."
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Reasoning Experiment</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+		<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript" src="js/common_functions.js"></script>
+		
+		<script type="text/javascript" src="js/js.cookie.js"></script>
+		<script type="text/javascript" src="js/session_management.js"></script>	
+	</head>
+	
+	<body>
+		<div id="wrapper" style="padding-right: 15px;">
+		
+		<h2>{{{welcome}}}</h2>
+
+		<div id="subject_id">
+		</div>
+		
+		<div>{{{description_study}}}</div>
+		
+	<!--	Zweck der Studie:
+		Wir führen eine Studie zu philosophischen Fragen durch.
+		 
+		Vorgehen:
+		Für die Teilnahme an dieser Studie wirst du zunächst eine kurze Geschichte lesen und anschließend 5 kurze Fragen beantworten. Wir schätzen, dass du hierfür nicht mehr als 2 Minuten brauchen wirst. Teilnehmer müssen älter als 18 Jahre alt sein.
+		 
+		Vertraulichkeit:
+		Alle Antworten sind anonym. Nur die Forscher, die an dieser Studie mitwirken, haben Zugang zu den von dir bereitgestellten Informationen. Deine Angaben werden nur für den Zweck dieser Studie verwendet.
+		 
+		Freiwillige Teilnahme:
+		Die Teilnahme an dieser Studie ist vollkommen freiwillig. Du hast jederzeit die Möglichkeit, die Teilnahme zu verweigern und sie zu jedem Zeitpunkt ohne Angabe von Gründen zu beenden.
+		 
+		Fragen zur Studie:
+		Falls du Fragen zur Studie hast, wende dich bitte an Pascale.Willemsen(at)rwth-aachen.de
+		-->
+		
+		<input type="button" class="customBTN center-btn" onclick="location.href='html/page-questions.html';" value="Click here to start the experiment" />
+		
+		</div>
+		
+		
+		Click to reset experiment: generate new randomizations and subject ID<br />
+		<input id="clear_sid_btn" type="button" value="!!! (necessary to repeat exp once completed) !!!" /><br />
+		
+		<br />
+		Click on one of the buttons to manually set amount of change:<br />
+		<input id="low_btn" type="button" value="changeType = low" /><input id="med_btn" type="button" value="changeType = medium" /><input id="hig_btn" type="button" value="changeType = high" /><br />
+		<br />
+		
+		Change presentation format:<br />
+		<input id="form1_btn" type="button" value="Format = Icon array" /><input id="form2_btn" type="button" value="Format = Std. Prob. Format" />
+		<br /><br />
+	</body>
+</html>

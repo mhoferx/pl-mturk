@@ -1,0 +1,54 @@
+{
+	"metadata": {
+		"expName": "prior-likelihood change: mturk study v0.9",
+		"time": "2016-03-14 14:03:49.158",
+		"subjectID": "1703750552",
+		"subjectInfo": 0,
+		"changeLevel": 2,
+		"envProbabilities": [
+			{
+				"prior": 0.79,
+				"likelihood": [
+					0.48,
+					0.1
+				]
+			},
+			{
+				"prior": 0.51,
+				"likelihood": [
+					0.48,
+					0.1
+				]
+			},
+			{
+				"prior": 0.79,
+				"likelihood": [
+					0.91,
+					0.39
+				]
+			}
+		],
+		"randomizations": {
+			"environments": [
+				0,
+				1,
+				2
+			],
+			"colors": [
+				0,
+				1,
+				2,
+				3
+			],
+			"outcome": 1,
+			"test": 0
+		},
+		"startTimeStamp": 1457964229158,
+		"endTimeStamp": 0,
+		"completed": "no"
+	},
+	"expdata": {
+		"bayesReason": 0,
+		"plausibility": 0
+	}
+}

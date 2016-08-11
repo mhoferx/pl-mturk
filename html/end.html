@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Reasoning Experiment</title>
+		
+		<link rel="stylesheet" type="text/css" href="../css/view.css" media="all">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		
+		<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+		<script type="text/javascript" src="../js/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript" src="../js/js.cookie.js"></script>
+		<script type="text/javascript" src="../js/common_functions.js"></script>
+		
+		<script type="text/javascript" src="../js/information_form.js"></script>
+
+	</head>
+	
+	<body>
+		<div id="wrapper" style="width: 730px;">
+			<h2>Thank You for Participating in the Experiment!</h2>
+			
+			<div id="dspr">
+				<p>The experiment is over. Please fill out the form below before closing this window.</p>
+				<!--<p>Please fill out the form below to provide some basic information about yourself and your educational background:</p>-->
+				
+				<div id="form_container" class="appnitro form_class">
+					<ul >
+						<li id="li_2" >
+							<label class="description" for="element_2">Age</label>
+							<div>
+								<input id="age_field" name="age_field" class="element text medium" type="text" maxlength="2" value=""/>
+							</div><p class="guidelines" id="guide_2"><small>Enter a value between 0 and 99.</small></p> 
+						</li>		
+						
+						<li id="li_3" >
+							<label class="description" for="element_3">Gender </label>
+							<div>
+								<select class="element select medium" id="gender_select" name="element_3"> 
+									<option value="-1" selected="selected"></option>
+									<option value="1" >Male</option>
+									<option value="2" >Female</option>			
+								</select>
+							</div><p class="guidelines" id="guide_3"><small>Please choose.</small></p> 
+						</li>		
+						
+						<li id="li_1" >
+						<label class="description" for="element_1">Education </label>
+							<div>
+								<select class="element select medium" id="education_select" name="element_1"> 
+									<option value="-1" selected="selected"></option>
+									<option value="1" >High school</option>
+									<option value="2" >College degree</option>
+									<option value="3" >Graduate degree</option>
+									<option value="4" >Other</option>
+								</select>
+							</div><p class="guidelines" id="guide_1"><small>Please choose which best describes your highest level of education.</small></p> 
+						</li>
+						<li id="missing_info">
+						</li>
+						<li>
+							<input id="saveForm" class="customBTN" style="margin-top: 30px !important;" type="button" value="Submit Information" />
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

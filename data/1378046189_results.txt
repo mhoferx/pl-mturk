@@ -1,0 +1,176 @@
+{
+	"metadata": {
+		"expName": "prior-likelihood change: mturk study v0.9",
+		"time": "2016-02-06 23:33:58.149",
+		"subjectID": "1378046189",
+		"subjectInfo": {
+			"age": "25",
+			"gender": "1",
+			"education": "3"
+		},
+		"changeLevel": 0,
+		"envProbabilities": [
+			{
+				"prior": 0.5,
+				"likelihood": [
+					0.81,
+					0.54
+				]
+			},
+			{
+				"prior": 0.62,
+				"likelihood": [
+					0.81,
+					0.54
+				]
+			},
+			{
+				"prior": 0.5,
+				"likelihood": [
+					0.46,
+					0.19
+				]
+			}
+		],
+		"randomizations": {
+			"environments": [
+				0,
+				2,
+				1
+			],
+			"colors": [
+				3,
+				2,
+				1,
+				0
+			],
+			"outcome": 1,
+			"test": 1
+		},
+		"startTimeStamp": 1454801638149,
+		"endTimeStamp": 0,
+		"completed": "no"
+	},
+	"expdata": {
+		"bayesReason": [
+			{
+				"envID": 0,
+				"envName": "",
+				"startTime": 1454801650026,
+				"endTime": 1454801811017,
+				"totalCorrect": 4,
+				"questions": [
+					{
+						"questionID": "prior",
+						"choice": "1",
+						"correct": "2",
+						"point": 0
+					},
+					{
+						"questionID": "feature",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "likelihood1",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "likelihood2",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "posterior",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					}
+				]
+			},
+			{
+				"envID": 1,
+				"envName": "",
+				"startTime": 1454801811557,
+				"endTime": 1454802009047,
+				"totalCorrect": 5,
+				"questions": [
+					{
+						"questionID": "prior",
+						"choice": "2",
+						"correct": "2",
+						"point": 1
+					},
+					{
+						"questionID": "feature",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "likelihood1",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "likelihood2",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "posterior",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					}
+				]
+			},
+			{
+				"envID": 2,
+				"envName": "",
+				"startTime": 1454802010109,
+				"endTime": 1454802066493,
+				"totalCorrect": 5,
+				"questions": [
+					{
+						"questionID": "prior",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "feature",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "likelihood1",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "likelihood2",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "posterior",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					}
+				]
+			}
+		],
+		"plausibility": 0
+	}
+}

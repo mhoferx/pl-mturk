@@ -1,0 +1,178 @@
+{
+	"metadata": {
+		"expName": "prior-likelihood change: mturk study v0.9",
+		"time": "2016-02-02 17:46:08.852",
+		"subjectID": "1011928822",
+		"subjectInfo": 0,
+		"changeLevel": 2,
+		"envProbabilities": [
+			{
+				"prior": 0.79,
+				"likelihood": [
+					0.48,
+					0.1
+				]
+			},
+			{
+				"prior": 0.51,
+				"likelihood": [
+					0.48,
+					0.1
+				]
+			},
+			{
+				"prior": 0.79,
+				"likelihood": [
+					0.91,
+					0.39
+				]
+			}
+		],
+		"randomizations": {
+			"environments": [
+				0,
+				2,
+				1
+			],
+			"colors": [
+				0,
+				1,
+				2,
+				3
+			],
+			"outcome": 0,
+			"test": 0
+		},
+		"startTimeStamp": 1454435168853,
+		"endTimeStamp": 0,
+		"completed": "yes"
+	},
+	"expdata": {
+		"bayesReason": [
+			{
+				"envID": 0,
+				"envName": "",
+				"startTime": 1454435178409,
+				"endTime": 1454435692694,
+				"totalCorrect": 5,
+				"questions": [
+					{
+						"questionID": "prior",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "feature",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "likelihood1",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "likelihood2",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "posterior",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					}
+				]
+			},
+			{
+				"envID": 1,
+				"envName": "",
+				"startTime": 1454435692855,
+				"endTime": 1454435713248,
+				"totalCorrect": 4,
+				"questions": [
+					{
+						"questionID": "prior",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "feature",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "likelihood1",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "likelihood2",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "posterior",
+						"choice": "2",
+						"correct": "0",
+						"point": 0
+					}
+				]
+			},
+			{
+				"envID": 2,
+				"envName": "",
+				"startTime": 1454435713363,
+				"endTime": 1454435743295,
+				"totalCorrect": 2,
+				"questions": [
+					{
+						"questionID": "prior",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "feature",
+						"choice": "2",
+						"correct": "0",
+						"point": 0
+					},
+					{
+						"questionID": "likelihood1",
+						"choice": "0",
+						"correct": "0",
+						"point": 1
+					},
+					{
+						"questionID": "likelihood2",
+						"choice": "1",
+						"correct": "0",
+						"point": 0
+					},
+					{
+						"questionID": "posterior",
+						"choice": "1",
+						"correct": "0",
+						"point": 0
+					}
+				]
+			}
+		],
+		"plausibility": {
+			"choiceID": "1",
+			"choiceName": "",
+			"startTime": 1454435743468,
+			"endTime": 1454436068216,
+			"textField": "Please provide a short explanation for why you chose that particular hospital.Please provide a short explanation for why you chose that particular hospital.Please provide a short explanation for why you chose that particular hospital.Please provide a short explanation for why you chose that particular hospital."
+		}
+	}
+}

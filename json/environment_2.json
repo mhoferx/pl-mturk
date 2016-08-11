@@ -1,0 +1,59 @@
+[
+  {
+    "envID": 0, 
+    "envName": "Baseline", 
+    "joint": [
+      [
+        38, 
+        41
+      ], 
+      [
+        2, 
+        19
+      ]
+    ], 
+    "likelihood": [
+      0.48, 
+      0.1
+    ], 
+    "prior": 0.79
+  }, 
+  {
+    "envID": 1, 
+    "envName": "Prior-Change", 
+    "joint": [
+      [
+        24, 
+        27
+      ], 
+      [
+        5, 
+        44
+      ]
+    ], 
+    "likelihood": [
+      0.48, 
+      0.1
+    ], 
+    "prior": 0.51
+  }, 
+  {
+    "envID": 2, 
+    "envName": "Likelihood-Change", 
+    "joint": [
+      [
+        72, 
+        7
+      ], 
+      [
+        8, 
+        13
+      ]
+    ], 
+    "likelihood": [
+      0.91, 
+      0.39
+    ], 
+    "prior": 0.79
+  }
+]

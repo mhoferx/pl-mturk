@@ -1,0 +1,6 @@
+[ "If a patient from the hosptial is picked at random, which of the following is true?",
+  "Out of the 100 patients in the hospital, approximately how many received a <b>{{high}}</b> test result?",
+  "Approximately what is the proportion of patients with disease <b>{{A}}</b> that received a <b>{{high}}</b> test result?",
+  "Approximately what is the proportion of patients with disease <b>{{B}}</b> that received a <b>{{high}}</b> test result?",
+  "If one of the patients that received a <b>{{high}}</b> test result is picked at random, which of the following is true?"
+]
